@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+
+    margin-bottom: 80px;
+
+    @include tablet  {
+        row-gap: 40px;
+
+        margin-bottom: 60px;
+    }
+
+    @include mobile {
+        margin-bottom: 40px;
+    }
+}
+
+.main__info {}
+
+.main__portfolio {}
+
+.main__cta {}

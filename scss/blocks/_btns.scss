@@ -1,0 +1,59 @@
+.btn,
+a.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 80px;
+	background-color: #039be5;
+
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+
+	transition: background-color 0.2s ease-in;
+
+	display: flex;
+	column-gap: 10px;
+	align-items: center;
+
+	&:hover {
+		background-color: #0c6897;
+	}
+
+	&--wide {
+		width: 100%;
+	}
+}
+
+.btn-link,
+a.btn-link {
+	display: inline-block;
+	padding: 6px 10px;
+	border-radius: 3px;
+	background-color: #F2F2F2;
+
+	font-size: 14px;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+	text-decoration: none;
+
+	transition: background-color 0.2s ease-in;
+
+	display: flex;
+	column-gap: 5px;
+	align-items: center;
+
+	@include mobile {
+		padding: 10px;
+	}
+
+	&:hover {
+		background-color: #dedede;
+	}
+
+	&--wide {
+		width: 100%;
+	}
+}
